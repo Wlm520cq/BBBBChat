@@ -183,6 +183,8 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CChatSocket.h" />
+    <ClInclude Include="CServerSocket.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MFC_ChatServer.h" />
     <ClInclude Include="MFC_ChatServerDlg.h" />
@@ -191,6 +193,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CChatSocket.cpp" />
+    <ClCompile Include="CServerSocket.cpp" />
     <ClCompile Include="MFC_ChatServer.cpp" />
     <ClCompile Include="MFC_ChatServerDlg.cpp" />
     <ClCompile Include="pch.cpp">
@@ -207,6 +211,7 @@
     <None Include="res\MFCChatServer.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\MFC_ChatClient\res\bg2.bmp" />
     <Image Include="res\MFC_ChatServer.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
